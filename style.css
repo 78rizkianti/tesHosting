@@ -1,0 +1,135 @@
+/*Navigation*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 20px;
+}
+body{
+	background: #b7a6d5;
+	font-family: 'Abel', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/*Utility Classes*/
+.container{
+	max-width: 1100px;
+	margin: auto;
+}
+
+.text-primary{
+	color: #3693ff;
+}
+
+/*Navbar*/
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	background: #290b36;
+    color:#fff;
+    padding: 0.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar i{
+	list-style-image: 
+}
+#navbar h2 a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#navbar li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 1rem;
+	margin: 0 0.5rem;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+#navbar li a:hover {
+    background-color: #3693ff;
+}
+
+/*Main Heading Font*/
+.m-heading {
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+/*Main Container height*/
+.main-container{
+	height: 100vh;
+	padding-top: 5rem;
+}
+
+/*Menyelaraskan item di baris utama*/
+.main_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Mengubah ukuran font nama*/
+.main_row h1{
+	font-size: 5rem;
+}
+
+/*Membuat main img seukuran dg layar*/
+.main_row img{
+	width: auto;
+	height: 100vh;
+	max-height: 650px;
+}
+
+img, svg {
+    vertical-align: middle;
+    padding: 1px;
+    max-width: 400px;
+}
+
+/*About Section*/
+.about{
+	background: #663e9b;
+	border-radius: 0.5rem;
+}
+
+.card{
+	border-bottom: 8px solid #320000;
+}
+
+
+/*Skill*/
+.skill-bar{
+	text-align: left;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.skill{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.HTML{width: 80%;background-color: #961b65}
+.CSS{width: 78%;background-color: #961b65}
+.JavaScript{width: 75%;background-color: #961b65}
+.PHP{width: 75%;background-color: #961b65}
+.MySQL{width: 82%;background-color: #961b65}
+
